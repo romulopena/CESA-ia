@@ -5,11 +5,11 @@ const caixaResultado = document.querySelector("caixa-resultado");
 const textoResultado = document.querySelector("texto-resultado");
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Qual a importância do 2PAC na cultura de plantações e ervas medicinais indigenas?",
         alternativas: [
             {
-            texto: "Alternativa1",
-            afirmacao: "afirmacao1"
+            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
+            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
             },
             {
             texto: "Alternativa2",
