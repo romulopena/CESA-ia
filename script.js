@@ -6,12 +6,18 @@ const textoResultado = document.querySelector("texto-resultado");
 const perguntas = [
     {
         enunciado: "Pergunta 1",
-        alternativas: ["Alternativa1","Alternativa2"]
+        alternativas: [
+            {
+            texto: "Alternativa1",
+            afirmacao: "afirmacao1"
+            },
+            {
+            texto: "Alternativa2",
+            afirmacao: "afirmacao1"
+            },
+        ]
     },
-    {
-        enunciado: "Pergunta 2",
-        alternativas: ["Alternativa1","Alternativa2"]
-    }
+
 ];
 
 let atual = 0;
