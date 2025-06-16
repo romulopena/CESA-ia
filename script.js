@@ -4,47 +4,33 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
-    {
-        enunciado: "Qual a importância do 2PAC na cultura de plantações e ervas medicinais indigenas?",
+        {
+        enunciado: "Como o conhecimento africano sobre ervas medicinais pode ajudar a reduzir os danos do uso de drogas, especialmente em comunidades que buscam cura e bem-estar?",
         alternativas: [
             {
-            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
-            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            texto: "Valorizando plantas nativas com propriedades calmantes e desintoxicantes, oferecendo terapias complementares que respeitam as tradições.",
+            afirmacao: "Isso promove autonomia comunitária, integrando saberes ancestrais com saúde pública para uma recuperação mais completa. "
             },
             {
-            texto: "Alternativa2",
-            afirmacao: "afirmacao1"
+            texto: "Estabelecendo centros de pesquisa colaborativos na África, unindo expertise ocidental e sabedoria tradicional para desenvolver terapias à base de plantas, culturalmente adequadas e acessíveis.Alternativa2",
+            afirmacao: "Criar plataformas de intercâmbio de conhecimento na África impulsiona a pesquisa local e garante soluções alinhadas às necessidades africanas, promovendo autossuficiência."
             },
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Como a visão africana sobre o uso ritualístico de plantas pode melhorar o diálogo sobre o uso e abuso de substâncias psicoativas, evitando a criminalização e promovendo a compreensão cultural?",
         alternativas: [
             {
-            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
-            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            texto: "Estudando plantas etnobotânicas para diferenciar o uso tradicional (como a iboga) do abuso de drogas, educando sobre seus contextos e riscos.",
+            afirmacao: "Distinguir o uso cultural do abuso cria políticas de drogas mais informadas e menos estigmatizantes, respeitando a diversidade de práticas. "
             },
             {
-            texto: "Alternativa2",
-            afirmacao: "afirmacao1"
+            texto: " Integrando o saber de curandeiros e fitoterapeutas africanos em programas de prevenção e tratamento, considerando a dimensão espiritual e comunitária da cura.",
+            afirmacao: "Essa integração permite uma visão completa da dependência, reconhecendo que a cura abrange o bem-estar mental, espiritual e social."
             },
         ]
     },
-    {
-        enunciado: "Pergunta 3",
-        alternativas: [
-            {
-            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
-            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
-            },
-            {
-            texto: "Alternativa2",
-            afirmacao: "afirmacao1"
-            },
-        ]
-    },
-
-];
+   
 
 let atual = 0;
 let perguntaAtual;
