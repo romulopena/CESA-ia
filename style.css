@@ -1,13 +1,15 @@
 :root{
-    --cor-fundo: #01080E;
+    --cor-fundo: #F08080;
     --cor-principal: #D2691E ;
     --cor-secundaria: #212333;
     --cor-destaque: #00FF7F;
-    --cor-texto: #F08080;
+    --cor-texto: white;
 }
 
 body{
-    background-color: var(--cor-fundo);
+    background-image: url(ia.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
@@ -16,7 +18,7 @@ body{
 }
 
 .caixa-principal{
-    background-color: var(--cor-principal);
+    
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -25,19 +27,14 @@ body{
 
 h1{
     color: var(--cor-destaque);
+    background-color: azure;
 }
 
 .caixa-perguntas{
     padding-bottom: 10px;
 }
 
-:root{
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
-}
+
 
 button{
     background-color: var(--cor-secundaria);
